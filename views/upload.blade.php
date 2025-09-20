@@ -95,6 +95,7 @@
 @endsection
 
 @section('scripts')
+<script src="{{ asset('js/s3-upload-helper.js') }}"></script>
 <script>
 let isUploading = false;
 let uploadedFilePath = null;
